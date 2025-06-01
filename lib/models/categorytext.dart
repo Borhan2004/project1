@@ -22,3 +22,22 @@ Row category() {
     ],
   );
 }
+
+class recommendText extends StatelessWidget {
+  const recommendText({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: EdgeInsets.only(left: 20),
+      child: Text(
+        'Recommendation \n For Diets',
+        style: TextStyle(
+          fontSize: 18,
+          color: Colors.black,
+          fontWeight: FontWeight.bold,
+        ),
+      ),
+    );
+  }
+}
