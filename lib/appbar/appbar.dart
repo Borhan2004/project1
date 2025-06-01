@@ -10,7 +10,7 @@ AppBar appbar() {
         fontWeight: FontWeight.bold,
       ),
     ),
-    backgroundColor: Colors.white,
+    backgroundColor: Colors.pink[50],
     centerTitle: true,
 
     leading: GestureDetector(
