@@ -1,3 +1,5 @@
+// ignore_for_file: file_names, camel_case_types
+
 import 'package:flutter/material.dart';
 import 'package:project_1/models/categorymodel.dart';
 import 'package:project_1/models/diet_model.dart';
@@ -15,7 +17,7 @@ class dietList extends StatelessWidget {
         return Container(
           width: 200,
           decoration: BoxDecoration(
-            color: categories[index].boxColor.withOpacity(0.15),
+            color: categories[index].boxColor.withValues(alpha: 0.15),
             borderRadius: BorderRadius.circular(28),
           ),
           child: Column(
