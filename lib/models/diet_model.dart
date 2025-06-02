@@ -21,7 +21,7 @@ class DietModel {
     diets.add(
       DietModel(
         name: 'Honey pancake',
-        iconPath: 'assets/honeypancake.png',
+        iconPath: 'assets/image/honeypancake.png',
         level: 'Easy',
         duration: '30 mins',
         calories: '180kCal',
@@ -32,7 +32,7 @@ class DietModel {
     diets.add(
       DietModel(
         name: 'Canai Bread',
-        iconPath: 'assets/canaibread.png',
+        iconPath: 'assets/image/canaibread.png',
         level: 'Easy',
         duration: '30 mins',
         calories: '180kCal',
@@ -42,7 +42,7 @@ class DietModel {
     diets.add(
       DietModel(
         name: 'Slice Cake',
-        iconPath: 'assets/slicecake.png',
+        iconPath: 'assets/image/slicecake.png',
         level: 'Medium',
         duration: '30 mins',
         calories: '360kCal',
@@ -52,7 +52,7 @@ class DietModel {
     diets.add(
       DietModel(
         name: 'Fresh Salad',
-        iconPath: 'assets/saladfresh.png',
+        iconPath: 'assets/image/saladfresh.png',
         level: 'Hard',
         duration: '45 mins',
         calories: '580kCal',

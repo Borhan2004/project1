@@ -16,7 +16,7 @@ class CategoryModel {
     categories.add(
       CategoryModel(
         name: 'Salad',
-        iconPath: 'assets/salad.jpg',
+        iconPath: 'assets/image/salad.jpg',
         boxColor: Color(0xCC9953D3),
       ),
     );
@@ -24,7 +24,7 @@ class CategoryModel {
     categories.add(
       CategoryModel(
         name: 'Pie',
-        iconPath: 'assets/Pie.jpeg',
+        iconPath: 'assets/image/Pie.jpeg',
         boxColor: Color(0Xff92A3FD),
       ),
     );
@@ -32,14 +32,14 @@ class CategoryModel {
     categories.add(
       CategoryModel(
         name: 'Cake',
-        iconPath: 'assets/cake.jpg',
+        iconPath: 'assets/image/cake.jpg',
         boxColor: Color(0x8C7C98CC),
       ),
     );
     categories.add(
       CategoryModel(
         name: 'Smoothie',
-        iconPath: 'assets/smoothie.jpeg',
+        iconPath: 'assets/image/smoothie.jpeg',
         boxColor: Color(0xFFD5A398),
       ),
     );
