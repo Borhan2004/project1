@@ -15,9 +15,9 @@ Container textfield() {
 
     child: TextField(
       decoration: InputDecoration(
-        hintText: 'Search Pancake',
+        hintText: 'Search here..',
         prefixIcon: Icon(Icons.search),
-        suffixIcon: Icon(Icons.filter),
+        suffixIcon: InkWell(child: Icon(Icons.filter), onTap: () {}),
         filled: true,
         fillColor: Colors.white,
         contentPadding: EdgeInsets.all(15),
